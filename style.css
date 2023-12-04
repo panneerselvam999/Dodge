@@ -1,0 +1,709 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap'); */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500&display=swap");
+
+* {
+  box-sizing: border-box;
+  width: 100%;
+  margin: 0px;
+  font-family: "Roboto Condensed", sans-serif;
+
+  padding: 0px;
+  color: white;
+  /* background-color: black; */
+}
+
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: black;
+}
+
+a {
+  /* color: white; */
+  text-decoration: none;
+  /* border: 1px dashed red; */
+}
+
+/* top-start */
+.top {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+/* top-end */
+
+/* header section - start */
+.header {
+  text-align: right;
+  padding: 6px;
+  background-color: #e7e7e7;
+  /* position: fixed;
+    z-index: 10; */
+}
+
+header a {
+  text-decoration: none;
+  font-size: 14px;
+  color: black;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+/* header section - end */
+
+/* nav section  - start */
+.nav_section {
+  display: flex;
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+  /* position: fixed;
+    z-index: 10; */
+  /* top: 0px; */
+}
+
+nav {
+  font-size: 12px;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  padding-top: 25px;
+  /* position: sticky;
+    top: 0; */
+}
+
+.nav_section .logo_dodge {
+  width: 155px;
+  padding-left: 15px;
+}
+
+/* nav section  - end */
+
+/* 1-cover - start */
+.cover1 {
+  position: relative;
+  background-image: url(img/cover-1.jpeg);
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 565px;
+}
+
+.cover1_box {
+  height: 289px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 40px 40px;
+
+  position: absolute;
+  top: 130px;
+  left: 60px;
+
+  background-color: rgba(0, 0, 0, 0.623);
+  color: white;
+}
+
+.cover1 .cover1_box span:nth-child(1) {
+  font-size: 14px;
+}
+
+.cover1 .cover1_box span:nth-child(2) {
+  font-size: 30px;
+  font-family: "Barlow Condensed", sans-serif;
+}
+
+.cover1 .cover1_box span:nth-child(4) {
+  font-size: 14px;
+}
+
+.cover1 .cover1_box span:nth-child(5) {
+  font-size: 30px;
+  font-family: "Barlow Condensed", sans-serif;
+}
+
+.cover1 .cover1_box span:nth-child(6) {
+  font-size: 14px;
+}
+
+.cover1 .cover1_box .but a {
+  text-decoration: none;
+  background-color: #d50000;
+  color: white;
+  font-size: 14px;
+  padding: 12px 44px 13px 30px;
+  font-family: "Barlow Condensed", sans-serif;
+}
+
+.cover1 .cover1_box .but a:first-child {
+  margin-right: 10px;
+}
+
+.cover1 .cover1_box .but a:last-child {
+  margin-left: 10px;
+}
+
+/* 1-cover - end */
+
+/* 2-cover - start */
+.cover2 {
+  position: relative;
+  width: 100%;
+  height: 330px;
+  background-image: url(img/cover-2.jpeg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: "Barlow Condensed", sans-serif;
+  font-family: "Barlow Condensed", sans-serif;
+}
+
+.cover2_box {
+  /* color: white; */
+  font-family: "Barlow Condensed", sans-serif;
+  height: 200px;
+  width: 400px;
+  text-align: center;
+  font-size: 33px;
+  position: absolute;
+  left: 150px;
+  top: 70px;
+}
+
+.cover2 p {
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  font-size: 11px;
+}
+
+/* 2-cover - end */
+
+/* Offer link - start */
+.offer {
+  text-align: center;
+  font-size: 12px;
+  margin-top: 20px;
+}
+
+.offer a {
+  text-decoration: underline;
+}
+
+/* Offer link - end */
+
+/* cars - start */
+.cars {
+  position: relative;
+  display: flex;
+  height: 350px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.car_box_m {
+  display: flex;
+  position: absolute;
+  bottom: 0px;
+}
+
+.cars .cars_heading {
+  position: absolute;
+  font-size: 38px;
+  font-family: "Barlow Condensed", sans-serif;
+  top: 0;
+}
+
+.cars .car_box {
+  padding: 30px;
+}
+
+.cars .car_box a {
+  text-decoration: none;
+}
+
+.cars .car_box a span:first-child {
+  font-size: 14px;
+  font-family: "Barlow Condensed", sans-serif;
+}
+
+.cars .car_box a span:last-child {
+  font-size: 17px;
+}
+
+.cars div.car_box span:nth-child(2) {
+  font-size: 8px;
+}
+
+/* cars - end */
+
+/* 4 - cover - start */
+.cover3 {
+  background-image: url(img/cover-3.jpeg);
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  height: 270px;
+  margin-top: 30px;
+}
+
+.cover3 .cover3_box {
+  font-family: "Barlow Condensed", sans-serif;
+  padding-top: 20px;
+  text-align: center;
+  font-size: 34px;
+  height: 230px;
+  width: 370px;
+  position: absolute;
+  right: 70px;
+  top: 20px;
+  background-color: rgba(0, 0, 0, 0.623);
+  color: white;
+}
+
+.cover3 .cover3_box span a {
+  font-size: 14px;
+  background-color: #d50000;
+  padding: 12px 44px 13px 30px;
+}
+
+/* 4 - cover - end */
+
+/* 4 - cover - start */
+.cover4 {
+  background-image: url(img/cover-4.jpeg);
+  height: 450px;
+  width: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  margin-top: 50px;
+}
+
+.cover4_box {
+  padding: 20px;
+  height: 385px;
+  width: 400px;
+  position: absolute;
+  right: 30px;
+  top: 30px;
+  margin-top: auto;
+  margin-bottom: auto;
+  background-color: rgba(0, 0, 0, 0.623);
+  color: white;
+  font-weight: normal;
+}
+
+.cover4 .cover4_box h1 {
+  font-size: 38px;
+  font-family: "Barlow Condensed", sans-serif;
+  margin-bottom: 20px;
+}
+
+.cover4 .cover4_box span {
+  font-size: 14px;
+}
+
+.cover4 .cover4_link a {
+  display: inline;
+  text-decoration: none;
+  color: white;
+  background-color: #d50000;
+  padding: 12px 20px 13px 30px;
+  font-size: 14px;
+}
+
+.cover4 .cover4_link a:last-child {
+  margin-left: 8px;
+  background-color: black;
+  border: 2px solid white;
+}
+
+/* 4 - cover - end */
+
+/* 5 - cover - start */
+.cover5 {
+  background-image: url(img/cover-5.jpg);
+  height: 450px;
+  width: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 40px;
+}
+
+/* 5 - cover - end */
+
+/* amazon logo - start */
+.a_logo {
+  display: flex;
+  height: 200px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.a_logo .a_logo_con h1 {
+  font-size: 40px;
+}
+
+.a_logo .a_logo_con span {
+  font-size: 14px;
+}
+
+.a_logo_box {
+  height: 100px;
+  width: 150px;
+}
+
+.a_logo_con {
+  height: 150px;
+  width: 550px;
+}
+
+.a_logo .a_logo_con a {
+  text-decoration: none;
+  color: white;
+  background-color: #d50000;
+  padding: 12px 44px 13px 30px;
+}
+
+.a_logo .a_logo_con span a:last-child {
+  margin-left: 10px;
+}
+
+/* amazon logo - end */
+
+/* 6 cover - start */
+.cover6 {
+  background-image: url(img/cover-6.jpeg);
+  height: 450px;
+  width: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.cover6_box {
+  position: absolute;
+  height: 350px;
+  width: 400px;
+  right: 30px;
+  top: 60px;
+  background-color: rgba(0, 0, 0, 0.623);
+  color: white;
+  padding: 20px;
+}
+
+.cover6 .cover6_box h1 {
+  font-size: 38px;
+  line-height: 35px;
+  font-family: "Barlow Condensed", sans-serif;
+  margin-bottom: 20px;
+}
+
+.cover6 .cover6_box span {
+  font-size: 14px;
+}
+
+.cover6 .cover6_box a {
+  text-decoration: none;
+  color: white;
+  background-color: #d50000;
+  padding: 12px 44px 13px 30px;
+  font-family: "Barlow Condensed", sans-serif;
+}
+
+/* 6 cover - end */
+
+/* e-shop logo - start */
+.e_shop {
+  display: flex;
+  height: 200px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.e_shop .e_shop_con h1 {
+  font-size: 40px;
+  font-family: "Barlow Condensed", sans-serif;
+  margin-bottom: 20px;
+}
+
+.e_shop_logo {
+  height: 100px;
+  width: 150px;
+  margin-right: 25px;
+}
+
+.e_shop_con {
+  height: 150px;
+  width: 550px;
+  font-size: 14px;
+}
+
+.e_shop .e_shop_con a {
+  text-decoration: none;
+  color: white;
+  background-color: #d50000;
+  padding: 12px 44px 13px 30px;
+  font-family: "Barlow Condensed", sans-serif;
+}
+
+/* e-shop logo - end */
+
+/* card - start */
+.card_s {
+  display: flex;
+  width: 100%;
+  font-size: 14px;
+}
+
+.card_s .card {
+  padding: 20px;
+  text-align: center;
+}
+
+/* .card{
+    width: 100px;
+} */
+
+/* card - end */
+
+/* 7 cover - start */
+.cover7 {
+  background-image: url(img/cover-7.jpeg);
+  height: 450px;
+  width: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.cover7_box {
+  padding: 20px;
+  position: absolute;
+  height: 300px;
+  width: 400px;
+  left: 30px;
+  top: 70px;
+  background-color: rgba(0, 0, 0, 0.623);
+  color: white;
+}
+
+.cover7 .cover7_box h1 {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 38px;
+  margin-bottom: 15px;
+}
+
+.cover7 .cover7_box span {
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.cover7 .cover7_box a {
+  font-family: "Barlow Condensed", sans-serif;
+  text-decoration: none;
+  color: white;
+  background-color: #d50000;
+  padding: 12px 44px 13px 30px;
+}
+
+/* 7 cover - end */
+
+/* 8 cover - start */
+.cover8 {
+  background-image: url(img/cover-8.jpeg);
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  height: 300px;
+}
+
+.cover8_box {
+  height: 210px;
+  width: 370px;
+  position: absolute;
+  right: 30px;
+  top: 78px;
+  background-color: rgba(0, 0, 0, 0.623);
+  color: white;
+  padding: 20px;
+}
+
+.cover8 .cover8_box h1 {
+  font-size: 38px;
+  font-family: "Barlow Condensed", sans-serif;
+  margin-bottom: 20px;
+}
+
+.cover8 .cover8_box a {
+  text-decoration: none;
+  color: white;
+  background-color: #d50000;
+  padding: 12px 44px 13px 30px;
+  font-family: "Barlow Condensed", sans-serif;
+}
+
+/* 8 cover - end */
+
+/* about - start */
+.about {
+  display: flex;
+  align-items: center;
+  height: 130px;
+  margin-top: 20px;
+  background-color: #212121;
+}
+
+.about .a_link img {
+  width: 100px;
+}
+
+.about .a_link {
+  align-items: center;
+  display: flex;
+  margin-left: 100px;
+  justify-content: space-between;
+  width: 50%;
+}
+
+.about .a_link a {
+  width: auto;
+}
+
+.about .a_search {
+  align-items: center;
+  display: flex;
+  width: 300px;
+  height: 50px;
+  margin-left: 100px;
+}
+
+.about .a_search a {
+  background-color: #d50000;
+  width: auto;
+  height: 30px;
+  align-items: center;
+  display: flex;
+  padding: 12px 25px 10px 30px;
+}
+
+.about .a_search input {
+  height: 30px;
+}
+
+/* about - end */
+
+/* links - start */
+.links {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  margin-top: 50px;
+  line-height: 30px;
+}
+
+.links div {
+  width: 13%;
+  display: flex;
+  flex-direction: column;
+}
+
+.links div h3 {
+  font-size: 12px;
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+
+.links div a {
+  font-size: 14px;
+}
+
+.links div a:hover {
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
+
+.links .lb1 {
+  margin-left: 100px;
+}
+
+.links .lb5 {
+  margin-right: 100px;
+}
+
+.links .lb5 .lb_img1 {
+  width: 80px;
+}
+
+.links .lb5 .lb_img2 {
+  width: 70px;
+}
+
+.links .lb5 .lb_img3 {
+  width: 155px;
+}
+
+/* links - end */
+
+/* hr_box - start */
+.hr_box {
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+/* hr_box - end */
+
+/* footer - start */
+footer {
+  display: flex;
+  padding-right: 100px;
+  padding-left: 100px;
+}
+
+footer .fb1 a img {
+  width: 70px;
+  margin-bottom: 25px;
+}
+
+footer .fb1 p {
+  margin-bottom: 15px;
+  font-size: 10px;
+}
+
+footer .fb1 p a {
+  text-decoration: underline;
+}
+
+footer .fb2 {
+  display: flex;
+  /* text-align: right; */
+  /* border: 1px dashed; */
+}
+
+footer .fb2 a {
+  font-size: 10px;
+  display: flex;
+  /* flex-direction: row; */
+  /* border: 1px solid; */
+}
+
+/* footer - end */
